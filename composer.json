@@ -2,7 +2,7 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.0.8",
+        "php": "^7.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.2",
@@ -17,6 +17,7 @@
         "symfony/maker-bundle": "^1.5",
         "symfony/orm-pack": "^1.0",
         "symfony/requirements-checker": "^1.1",
+        "symfony/security-bundle": "^3.4",
         "symfony/security-csrf": "^3.4",
         "symfony/twig-bundle": "^3.4",
         "symfony/validator": "^3.4",
