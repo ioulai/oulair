@@ -17,3 +17,5 @@
 .idea/oulair.iml
 .idea/php.xml
 .idea/symfony2.xml
+*.iml
+*.xml
