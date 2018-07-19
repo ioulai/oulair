@@ -1,0 +1,29 @@
+{% extends('layout.html.twig') %}
+
+{% block title %}
+    {#contenue ici#}
+{% endblock %}
+
+{% block menu %}
+    {% include('inc/nav.html.twig') %}
+{% endblock %}
+
+{% block titre_page %}
+    Proposer un vol
+{% endblock %}
+
+{% block main %}
+    <div class="register-box col-lg-6">
+        {#contenue ici#}
+        <div class="card">
+            <div class="card-body register-card-body">
+                {% form_theme form_vol 'bootstrap_4_layout.html.twig' %}
+                {{ form_start(form_vol) }}
+                {{ form_widget(form_vol) }}
+                <button class="btn btn-primary btn-block btn-flat" type="submit">Ajouter</button>
+                {{ form_end(form_vol) }}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

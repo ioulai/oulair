@@ -19,6 +19,19 @@ class FlightRepository extends ServiceEntityRepository
         parent::__construct($registry, Flight::class);
     }
 
+
+    public function findFlight()
+    {
+        $em = $this->getEntityManager();
+        $dql = "select f 
+        from App\Entity\Flight f
+        where f.dateDeparture >= :date";
+        $query = $em->createQuery($dql);
+        $query->setParameter('date', new \DateTime());
+        $result = $query->getResult();
+        return $result;
+    }
+
 //    /**
 //     * @return Flight[] Returns an array of Flight objects
 //     */

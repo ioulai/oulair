@@ -24,7 +24,7 @@ class Reservation
     private $number;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\User", inversedBy="reservations")
+     * @ORM\ManyToMany(targetEntity="App\Entity\User", inversedBy="reservations", cascade={"persist"})
      */
     private $user;
 
@@ -33,6 +33,11 @@ class Reservation
      * @ORM\JoinColumn(nullable=false)
      */
     private $flight;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $NbPlace;
 
     public function __construct()
     {
@@ -90,6 +95,18 @@ class Reservation
     public function setFlight(?Flight $flight): self
     {
         $this->flight = $flight;
+
+        return $this;
+    }
+
+    public function getNbPlace(): ?int
+    {
+        return $this->NbPlace;
+    }
+
+    public function setNbPlace(int $NbPlace): self
+    {
+        $this->NbPlace = $NbPlace;
 
         return $this;
     }

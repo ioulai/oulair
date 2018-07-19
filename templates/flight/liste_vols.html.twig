@@ -1,0 +1,57 @@
+{% extends('layout.html.twig') %}
+
+{% block title %}
+    {#contenue ici#}
+{% endblock %}
+
+{% block menu %}
+    {% include('inc/nav.html.twig') %}
+{% endblock %}
+
+{% block titre_page %}
+    {#contenue ici#}
+{% endblock %}
+
+{% block main %}
+    {#contenue ici#}
+    {% for flight in flights %}
+
+            <div class="ccol-lg-4 col-md-4 col-sm-4 col-xm-4">
+                <a href="">
+                    <div class="card card-widget widget-user">
+                        <div class="widget-user-header text-white"
+                             style="background: url({{ asset('../public/ressources/img/%image%'|replace({'%image%': flight.image })) }}) center center;">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3 class="card-title">{{ flight.name }}</h3>
+                            </div>
+                            <div class="card-body text-center">
+                                <p>Description : {{ flight.description }}</p>
+
+                                <p>Date de depart : {{ flight.dateDeparture | date('d-m-Y') }}</p>
+
+                            </div>
+                            <div class="col-5">
+                                {% if flight.user.id != user.id  %}
+                                <a href="{{ url('reservation',{id:flight.id}) }}">
+                                    <button class="btn btn-primary btn-block btn-flat" type="submit">Reserver</button>
+                                </a>
+                                {% endif %}
+                            </div>
+
+                        </div>
+                    </div>
+                </a>
+                {% for label,messages in app.flashes %}
+                    {% for message in messages %}
+                        <div class="alert alert-{{ label }}">
+                            <h5>{{ message }}</h5>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+
+
+    {% endfor %}
+{% endblock %}

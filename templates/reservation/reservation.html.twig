@@ -1,0 +1,59 @@
+{% extends('layout.html.twig') %}
+
+{% block title %}
+    {#contenue ici#}
+{% endblock %}
+
+{% block menu %}
+    {% include('inc/nav.html.twig') %}
+{% endblock %}
+
+{% block titre_page %}
+    {#contenue ici#}
+    Reservation d'un vol
+{% endblock %}
+
+{% block main %}
+    {#contenue ici#}
+    <div class="col-lg-1 col-md-1 col-sm-1 ">
+        <a href="{{ url('liste_vols') }}">
+            <button class="btn btn-primary btn-block btn-flat"><i class="fa fa-arrow-left"></i></button>
+        </a>
+    </div>
+    <div class="row">
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <img class="d-block w-100"
+                         src="{{ asset('../public/ressources/img/%image%'|replace({'%image%': flight.image})) }}"
+                         alt="First slide">
+                </div>
+                <div class="card-body text-center">
+                    <h4>VOL-{{ flight.id }}</h4>
+                    {#<p>{{ flight[user.name] }} </p>#}
+                    <p>Lieu de Depart : {{ flight.departure|upper }}</p>
+                    <p>Lieu d'arrive : {{ flight.arrive |upper }}</p>
+                    <p>Date de depart : {{ flight.dateDeparture| date('d-m-Y') }}</p>
+                    <p>Date d'arrivée : {{ flight.dateArrive|date('d-m-Y') }}</p>
+                    <p>Prix : {{ flight.price }}€</p>
+                    <p>Nombre de places : {{ flight.nbPlace }}</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="register-box col-lg-6 col-md col-sm">
+            {#contenue ici#}
+            <div class="card">
+                <div class="card-body register-card-body">
+                    {% form_theme form_reservation 'bootstrap_4_layout.html.twig' %}
+                    {{ form_start(form_reservation) }}
+                    {{ form_widget(form_reservation) }}
+                    <button class="btn btn-primary btn-block btn-flat" type="submit">Reserver</button>
+                    {{ form_end(form_reservation) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

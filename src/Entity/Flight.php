@@ -26,12 +26,27 @@ class Flight
     /**
      * @ORM\Column(type="string", length=255)
      */
+    private $description;
+
+    /**
+     * @ORM\Column(type="string")
+     */
+    private $image;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     private $departure;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
     private $arrive;
+
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    private $hourDeparture;
 
     /**
      * @ORM\Column(type="datetime")
@@ -84,6 +99,55 @@ class Flight
 
         return $this;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getDescription()
+    {
+        return $this->description;
+    }
+
+    /**
+     * @param mixed $description
+     */
+    public function setDescription($description): void
+    {
+        $this->description = $description;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * @param mixed $image
+     */
+    public function setImage($image): void
+    {
+        $this->image = $image;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHourDeparture()
+    {
+        return $this->hourDeparture;
+    }
+
+    /**
+     * @param mixed $hourDeparture
+     */
+    public function setHourDeparture($hourDeparture): void
+    {
+        $this->hourDeparture = $hourDeparture;
+    }
+
 
     public function getDeparture(): ?string
     {
