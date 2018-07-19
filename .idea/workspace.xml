@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edb6a56e-de4d-4025-a0d8-fa3d38ca0c26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/ressources/parallax.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/FileUploader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/Services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/error404.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/error500.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/flight/liste_vols.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/flight/proposer_vol.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/info_legal.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/squelette.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reservation/reservation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reservation/reservation_remove.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reservation/reservation_user.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oulair.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oulair.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Flight.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Flight.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/FlightRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/FlightRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ReservationRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ReservationRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inc/nav.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inc/nav.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/user/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/user/register.html.twig" afterDir="false" />
@@ -81,22 +55,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reservation_user.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/reservation/reservation_user.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="36" selection-end-column="19" />
-            </state>
-          </provider>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,6 +68,7 @@
       <find>logout</find>
       <find>FlightReposit</find>
       <find>log</find>
+      <find>contac</find>
     </findStrings>
     <dirStrings>
       <dir>C:\wamp64\www\oulair\src</dir>
@@ -129,8 +91,6 @@
         <option value="$PROJECT_DIR$/templates/main/squelette.html" />
         <option value="$PROJECT_DIR$/templates/main/info_legal.html.twig" />
         <option value="$PROJECT_DIR$/templates/main/squelette.html.twig" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/templates/user/register.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/FlightType.php" />
         <option value="$PROJECT_DIR$/src/Services/Services.php" />
         <option value="$PROJECT_DIR$/src/Services/FileUploader.php" />
@@ -154,8 +114,10 @@
         <option value="$PROJECT_DIR$/templates/reservation/reservation_remove.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/ReservationController.php" />
         <option value="$PROJECT_DIR$/public/ressources/parallax.css" />
-        <option value="$PROJECT_DIR$/templates/user/login.html.twig" />
         <option value="$PROJECT_DIR$/templates/reservation/reservation_user.html.twig" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/templates/user/login.html.twig" />
+        <option value="$PROJECT_DIR$/templates/user/register.html.twig" />
         <option value="$PROJECT_DIR$/templates/layout.html.twig" />
       </list>
     </option>
@@ -276,13 +238,18 @@
             <path>
               <item name="oulair" type="b2602c69:ProjectViewProjectNode" />
               <item name="oulair" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oulair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oulair" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oulair" type="b2602c69:ProjectViewProjectNode" />
               <item name="oulair" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="reservation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,12 +303,12 @@
       <workItem from="1531811828726" duration="21901000" />
       <workItem from="1531896975255" duration="5554000" />
       <workItem from="1531902568402" duration="18459000" />
-      <workItem from="1531983322848" duration="1003000" />
+      <workItem from="1531983322848" duration="4026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80606000" />
+    <option name="totallyTimeSpent" value="83629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
@@ -379,12 +346,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/ressources/dist/img/AdminLTELogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ressources/dist/img/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ressources/dist/img/default-150x150.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -410,20 +371,6 @@
     <entry file="file://$PROJECT_DIR$/var/log/dev.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="24" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ressources/plugins/font-awesome/fonts/fontawesome-webfont.svg">
@@ -688,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inc/nav.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -709,12 +649,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
