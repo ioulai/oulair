@@ -1,8 +1,25 @@
+
 ###> symfony/framework-bundle ###
 /.env
 /public/bundles/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-
 /.idea/
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/oulair.iml
+.idea/dataSources/29c05f38-b7a8-4a53-8a9d-84b98ce9ef19.xml
+.idea/oulair.iml
+.idea/oulair.iml
+.idea/php.xml
+*.iml
+.idea/oulair.iml
+.idea/oulair.iml
+.idea/php.xml
+.idea/symfony2.xml
+*.iml
+*.xml
+.idea/workspace.xml
+
+.idea/workspace.xml
